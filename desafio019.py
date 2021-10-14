@@ -9,3 +9,4 @@ lista = [a, b, c, d]
 escolhido = choice(lista)
 print('O aluno escolhido foi: {}'.format(escolhido))
 
+
