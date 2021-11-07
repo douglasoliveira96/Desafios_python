@@ -4,7 +4,7 @@ e o programa vai informar quantas cédulas de cada valor serão entregues.
 OBS: considere que o caixa possui cédulas de R$100 R$50, R$20, R$10 R$5 e R$2.'''
 
 print('=' * 30)
-print('{:^30}'.format('\033[1;32mBANCO CEV\033[m'))
+print('{:^40}'.format('\033[1;32mBANCO CEV\033[m'))
 print('=' * 30)
 valor = int(input('Qual o valor do saque? R$'))
 total = valor
