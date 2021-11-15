@@ -23,7 +23,14 @@ while True:
         break
 print('=' * 50)
 print(f'Os dados foram {princ}.')
-print(f'{len(princ)} pessoas foram adicionadas.')
-print(f'O maior peso foi {maior}KG.')
-print(f'O menor peso foi {menor}KG.')
+print(f'Ao todo você cadastrou {len(princ)} pessoas. ')
+print(f'O maior peso foi {maior}KG. Peso de ', end='')
+for p in princ:
+    if p[1] == maior:
+        print(f'[{p[0]}]')
+print()
+print(f'O menor peso foi {menor}KG. Peso de ', end='')
+for p in princ:
+    if p[1] == menor:
+        print(f'[{p[0]}]')
 print('=' * 50)
